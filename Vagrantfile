@@ -56,7 +56,7 @@ Vagrant.configure(2) do |config|
   #   vb.gui = true
   #
   #   # Customize the amount of memory on the VM:
-     vb.memory = "8192"
+     vb.memory = "4096"
       # set the number of cpus
      vb.cpus = "2"
       # Enable usb (for opencv)
