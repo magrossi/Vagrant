@@ -43,8 +43,8 @@ Vagrant.configure(2) do |config|
   # the path on the host to the actual folder. The second argument is
   # the path on the guest to mount the folder. And the optional third
   # argument is a set of non-required options.
-    # need absolute paths, so the answer here is to leverage the environment variable
-  config.vm.synced_folder ENV['HOME']+"/Dropbox", "/home/vagrant/Dropbox"
+  # need absolute paths, so the answer here is to leverage the environment variable
+  # config.vm.synced_folder ENV['HOME']+"/Dropbox", "/home/vagrant/Dropbox"
   config.vm.synced_folder ENV['HOME']+"/Google Drive", "/home/vagrant/GoogleDrive"
 
   # Provider-specific configuration so you can fine-tune various
