@@ -46,6 +46,7 @@ Vagrant.configure(2) do |config|
   # need absolute paths, so the answer here is to leverage the environment variable
   # config.vm.synced_folder ENV['HOME']+"/Dropbox", "/home/vagrant/Dropbox"
   config.vm.synced_folder ENV['HOME']+"/Google Drive", "/home/vagrant/GoogleDrive"
+  config.vm.synced_folder "D:/Study/DCU/MCM/CA675 - Cloud Technologies", "/home/vagrant/ca675"
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
